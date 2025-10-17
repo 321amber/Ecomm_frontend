@@ -31,7 +31,7 @@ export default function MainItems() {
         console.log(data);
         
 
-        const prodUrl = "https://ecomm-backend-zg6q.onrender.com";
+        const prodUrl = "http://localhost:3001/products";
         const res = await fetch(prodUrl);
         const prodData = await res.json();
         
@@ -40,7 +40,7 @@ export default function MainItems() {
         const newProducts = allProducts.flat(Infinity);
         console.log(newProducts);
         
-
+         // dispatch(setProducts(data.products));
         dispatch(setProducts(newProducts));
 
         }
