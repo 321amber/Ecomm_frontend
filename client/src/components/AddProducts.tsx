@@ -47,7 +47,7 @@ export const AddProducts = () => {
 }
     
     try {
-      const res = await fetch("https://ecomm-backend-zg6q.onrender.com", {
+      const res = await fetch("https://ecomm-backend-zg6q.onrender.com/products", {
         method: "POST",
         body: data,
       });
