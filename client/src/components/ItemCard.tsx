@@ -16,7 +16,7 @@ export const ItemCard = ({item}:itemCardProp) => {
      }
 
 
-const imageUrl = Array.isArray(images) ? images[0] : "http://localhost:3001" + images;
+const imageUrl = Array.isArray(images) ? images[0] : "https://ecomm-backend-zg6q.onrender.com" + images;
 
     
   return (
