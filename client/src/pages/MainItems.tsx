@@ -31,7 +31,7 @@ export default function MainItems() {
         console.log(data);
         
 
-        const prodUrl = "http://localhost:3001/products";
+        const prodUrl = "https://ecomm-backend-zg6q.onrender.com";
         const res = await fetch(prodUrl);
         const prodData = await res.json();
         
